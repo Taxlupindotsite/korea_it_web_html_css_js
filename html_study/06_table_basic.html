@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        table,
+        th,
+        td{
+            border : 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th,
+        td {
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+    <h1>HTML 표의 기본 구조 배우기</h1>
+    <table>
+      <caption>
+        우리 반 학생들의 간단한 정보.
+      </caption>
+
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>나이</th>
+          <th>지역</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>홍길동</td>
+          <td>18</td>
+          <td>강남구</td>
+        </tr>
+
+        <tr>
+          <td>김철수</td>
+          <td>20</td>
+          <td>서초구</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>총 학생 수</td>
+          <td>2명</td>
+          <td>-</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+
+    <hr>
+
+    <thead>
+        <table
+          <tr> 월별 판매실적
+
+            <th>월</th>
+            <th>판매량</th>
+            <th>수익</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>1월</td>
+              <td>100</td>
+              <td>1,000원</td>
+            </tr>
+            <tr>
+              <td>2월</td>
+              <td>150</td>
+              <td>1,500원</td>
+            </tr>
+            <tfoot>
+            <tr>
+              <td>총합</td>
+              <td>250</td>
+              <td>2,500원</td>
+            </tfoot>
+    </caption>
+  </body>
+</html>
